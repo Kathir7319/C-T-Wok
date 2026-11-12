@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Weekday Lunch Specials | C&T Wok - Morrisville, NC</title>
+  
+  <meta name="description" content="Weekday Lunch Specials at C&T Wok in Morrisville, NC. Served Monday–Friday, 11:00 AM – 2:45 PM. Combos include rice and choice of soup or spring roll. Call (919) 467-8860.">
+  <meta name="keywords" content="lunch specials Morrisville, C&T Wok lunch, cheap lunch Morrisville NC, Double Cooked Pork Belly lunch, sesame chicken lunch combo, RTP lunch takeout">
+  <meta property="og:title" content="Weekday Lunch Specials | C&T Wok Morrisville">
+  <meta property="og:description" content="Satisfying Chinese, Szechuan, and Thai lunch combos Mon–Fri 11am–2:45pm. Fast takeout and friendly dine-in.">
+  <meta property="og:image" content="assets/images/logo.svg">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <div class="announcement-text">
+        <span class="announcement-badge">Lunch Deal</span>
+        <span>Weekday Lunch Specials Mon–Fri, 11:00 AM – 2:45 PM | Includes Rice & Side</span>
+      </div>
+      <div class="announcement-contact">
+        <span class="live-status-pill closed">
+          <span class="status-dot"></span>
+          <span class="status-text">Checking Hours...</span>
+        </span>
+        <a href="tel:+19194678860" class="announcement-phone">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          (919) 467-8860
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo-link" aria-label="C&T Wok Homepage">
+        <img src="assets/images/logo.svg" alt="C&T Wok Logo" class="brand-logo-img">
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="desktop-nav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Full Menu</a></li>
+          <li><a href="lunch-specials.html" class="nav-link active">Lunch Specials</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="catering.html" class="nav-link">Catering & Inquiries</a></li>
+          <li><a href="contact.html" class="nav-link">Contact & Hours</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+19194678860" class="btn btn-primary btn-call">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Order Pickup / Call (919) 467-8860
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuOpen" aria-label="Open mobile menu">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/logo.svg" alt="C&T Wok" style="height: 42px;">
+      <button class="mobile-close-btn" id="mobileMenuClose" aria-label="Close menu">&times;</button>
+    </div>
+    
+    <div style="margin-bottom: 1.5rem;">
+      <span class="live-status-pill closed">
+        <span class="status-dot"></span>
+        <span class="status-text">Checking Hours...</span>
+      </span>
+    </div>
+
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="mobile-nav-link">Home <span>→</span></a></li>
+      <li><a href="menu.html" class="mobile-nav-link">Full Menu <span>→</span></a></li>
+      <li><a href="lunch-specials.html" class="mobile-nav-link active">Lunch Specials <span>→</span></a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us <span>→</span></a></li>
+      <li><a href="catering.html" class="mobile-nav-link">Catering & Inquiries <span>→</span></a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact & Hours <span>→</span></a></li>
+    </ul>
+
+    <div class="mobile-drawer-footer">
+      <a href="tel:+19194678860" class="btn btn-primary" style="width: 100%;">
+        📞 Call (919) 467-8860
+      </a>
+    </div>
+  </aside>
+
+  <!-- SUB-HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="lunch-clock-hero-badge">
+        <span>⏰ Mon – Fri &nbsp;|&nbsp; 11:00 AM – 2:45 PM</span>
+      </div>
+      <h1 class="page-hero-title">Weekday <span class="gold-accent">Lunch Specials</span></h1>
+      <p class="page-hero-desc">
+        Fast, satisfying midday favorites cooked fresh to order. Generous portions, lightning-fast turnaround, and great value for Morrisville professionals, families, and Triangle commuters.
+      </p>
+    </div>
+  </section>
+
+  <!-- LUNCH PERKS (What Every Combo Includes) -->
+  <section class="section-py" style="padding-bottom: 2rem;">
+    <div class="container">
+      <div class="lunch-combo-perks">
+        <div class="perk-card">
+          <div class="perk-icon">🍚</div>
+          <h4>Choice of Rice</h4>
+          <p style="font-size: 0.9rem; margin: 0; color: #A0A5B5;">
+            Complimentary fragrant Steamed Jasmine White Rice or savory seasoned Pork Fried Rice with every entree combo.
+          </p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon">🥣</div>
+          <h4>Choice of Starter Side</h4>
+          <p style="font-size: 0.9rem; margin: 0; color: #A0A5B5;">
+            Choose either a golden Crispy Vegetable Spring Roll, comforting Egg Drop Soup, or traditional Hot & Sour Soup.
+          </p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon">⚡</div>
+          <h4>Speed & Freshness</h4>
+          <p style="font-size: 0.9rem; margin: 0; color: #A0A5B5;">
+            Ready in 10–15 minutes! Call ahead at (919) 467-8860 and your hot lunch box will be packed and ready upon arrival.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUNCH SPECIALS DISH LIST -->
+  <section class="section-py section-bg-surface">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow-tag"><span class="dot"></span> Midday Menu</div>
+        <h2 class="section-title">Popular <span class="gold-accent">Lunch Combos</span></h2>
+        <p class="section-desc">Each entree below is served complete with your choice of rice and side.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Lunch Dish 1: Double Cooked Pork Belly -->
+        <div class="dish-card">
+          <div class="dish-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Double Cooked Pork Belly Lunch" class="dish-img">
+            <div class="dish-image-overlay"></div>
+            <span class="dish-tag-cuisine szechuan">Szechuan Signature</span>
+            <span class="dish-spice-badge">🌶️🌶️ Medium</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-header-row">
+              <h3 class="dish-title">Double Cooked Pork Belly</h3>
+              <div class="dish-price">$11.95</div>
+            </div>
+            <div class="dish-chinese-name">午餐: 回锅肉套餐</div>
+            <p class="dish-desc">
+              Thinly sliced pork belly wok-seared with leeks, spicy bean paste, and fermented black beans. Packed with authentic Sichuan flavor.
+            </p>
+            <div class="dish-footer-row">
+              <div class="dish-features">
+                <span class="dish-pill">Rice & Side Included</span>
+              </div>
+              <button class="dish-add-btn" onclick='addToOrderTray({id: "lunch-double-pork", title: "Lunch: Double Cooked Pork Belly", price: 11.95})'>
+                <span>+</span> Add to Call List
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Dish 2: Crispy Sesame Chicken -->
+        <div class="dish-card">
+          <div class="dish-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80" alt="Crispy Sesame Chicken Lunch" class="dish-img">
+            <div class="dish-image-overlay"></div>
+            <span class="dish-tag-cuisine">Diner Favorite</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-header-row">
+              <h3 class="dish-title">Crispy Sesame Chicken</h3>
+              <div class="dish-price">$10.95</div>
+            </div>
+            <div class="dish-chinese-name">午餐: 芝麻鸡套餐</div>
+            <p class="dish-desc">
+              Crisp golden-fried chicken tossed in our signature honey-soy glaze, sprinkled with toasted sesame seeds and steamed broccoli.
+            </p>
+            <div class="dish-footer-row">
+              <div class="dish-features">
+                <span class="dish-pill">Rice & Side Included</span>
+              </div>
+              <button class="dish-add-btn" onclick='addToOrderTray({id: "lunch-sesame-chicken", title: "Lunch: Crispy Sesame Chicken", price: 10.95})'>
+                <span>+</span> Add to Call List
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Dish 3: Thai Spicy Basil Chicken -->
+        <div class="dish-card">
+          <div class="dish-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80" alt="Thai Spicy Basil Chicken Lunch" class="dish-img">
+            <div class="dish-image-overlay"></div>
+            <span class="dish-tag-cuisine thai">Thai Specialty</span>
+            <span class="dish-spice-badge">🌶️🌶️ Medium</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-header-row">
+              <h3 class="dish-title">Thai Spicy Basil Chicken</h3>
+              <div class="dish-price">$10.95</div>
+            </div>
+            <div class="dish-chinese-name">午餐: 泰式罗勒鸡套餐</div>
+            <p class="dish-desc">
+              Freshly ground chicken flash-fried with fragrant holy basil, garlic, sweet peppers, and Thai bird chilis for a lively midday burst.
+            </p>
+            <div class="dish-footer-row">
+              <div class="dish-features">
+                <span class="dish-pill">Rice & Side Included</span>
+              </div>
+              <button class="dish-add-btn" onclick='addToOrderTray({id: "lunch-thai-basil", title: "Lunch: Thai Spicy Basil Chicken", price: 10.95})'>
+                <span>+</span> Add to Call List
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Dish 4: General Tso's Chicken -->
+        <div class="dish-card">
+          <div class="dish-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80" alt="General Tso's Chicken Lunch" class="dish-img">
+            <div class="dish-image-overlay"></div>
+            <span class="dish-tag-cuisine">Bestseller</span>
+            <span class="dish-spice-badge">🌶️ Mild</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-header-row">
+              <h3 class="dish-title">General Tso's Chicken</h3>
+              <div class="dish-price">$10.95</div>
+            </div>
+            <div class="dish-chinese-name">午餐: 左宗鸡套餐</div>
+            <p class="dish-desc">
+              Tender crispy chicken glazed in our tangy, lightly spiced garlic reduction with fresh broccoli florets.
+            </p>
+            <div class="dish-footer-row">
+              <div class="dish-features">
+                <span class="dish-pill">Rice & Side Included</span>
+              </div>
+              <button class="dish-add-btn" onclick='addToOrderTray({id: "lunch-general-tso", title: "Lunch: General Tso Chicken", price: 10.95})'>
+                <span>+</span> Add to Call List
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Dish 5: Beef with Broccoli -->
+        <div class="dish-card">
+          <div class="dish-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80" alt="Beef with Broccoli Lunch" class="dish-img">
+            <div class="dish-image-overlay"></div>
+            <span class="dish-tag-cuisine">Classic</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-header-row">
+              <h3 class="dish-title">Beef with Broccoli</h3>
+              <div class="dish-price">$11.50</div>
+            </div>
+            <div class="dish-chinese-name">午餐: 西兰花牛套餐</div>
+            <p class="dish-desc">
+              Tender marinated beef flank wok-seared with fresh crisp broccoli in savory brown garlic-oyster glaze.
+            </p>
+            <div class="dish-footer-row">
+              <div class="dish-features">
+                <span class="dish-pill">Rice & Side Included</span>
+              </div>
+              <button class="dish-add-btn" onclick='addToOrderTray({id: "lunch-beef-broccoli", title: "Lunch: Beef with Broccoli", price: 11.50})'>
+                <span>+</span> Add to Call List
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Dish 6: Mapo Tofu Lunch Combo -->
+        <div class="dish-card">
+          <div class="dish-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Mapo Tofu Lunch" class="dish-img">
+            <div class="dish-image-overlay"></div>
+            <span class="dish-tag-cuisine szechuan">Szechuan Classic</span>
+            <span class="dish-spice-badge">🌶️🌶️ Medium</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-header-row">
+              <h3 class="dish-title">Mapo Tofu Lunch Combo</h3>
+              <div class="dish-price">$10.50</div>
+            </div>
+            <div class="dish-chinese-name">午餐: 麻婆豆腐套餐</div>
+            <p class="dish-desc">
+              Soft silken tofu simmered in a spicy, numbing Sichuan chili oil sauce with minced pork or vegetarian style.
+            </p>
+            <div class="dish-footer-row">
+              <div class="dish-features">
+                <span class="dish-pill">Vegetarian Option</span>
+              </div>
+              <button class="dish-add-btn" onclick='addToOrderTray({id: "lunch-mapo-tofu", title: "Lunch: Mapo Tofu", price: 10.50})'>
+                <span>+</span> Add to Call List
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GOOGLE REVIEW CALLOUT FOR LUNCH -->
+      <div style="margin-top: 3.5rem; background: rgba(22, 24, 31, 0.95); border: 1px dashed var(--color-border-gold); border-radius: var(--radius-md); padding: 1.5rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <span style="font-size: 1.8rem;">⭐</span>
+          <div>
+            <h4 style="color: #FFF; margin: 0; font-size: 1.1rem;">"Best lunch special in Morrisville under $12!"</h4>
+            <p style="font-size: 0.88rem; color: #A0A5B5; margin: 2px 0 0 0;">Rated 4.4★ by 936+ Google diners. Freshly boxed in under 15 minutes.</p>
+          </div>
+        </div>
+        <a href="https://share.google/GyPwGe88mPGrpRE6F" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          Read Google Reviews ↗
+        </a>
+      </div>
+
+      <!-- OFFICE LUNCH ORDER CALLOUT -->
+      <div style="margin-top: 4.5rem; background: linear-gradient(135deg, #1A1C25 0%, #121319 100%); border: 1px solid var(--color-border-gold); border-radius: var(--radius-lg); padding: 3rem; text-align: center;">
+        <h3 style="font-size: 1.8rem; color: #FFF; margin-bottom: 0.8rem;">
+          Ordering Lunch for the Whole Office?
+        </h3>
+        <p style="color: #D1D5DB; font-size: 1.05rem; max-width: 680px; margin: 0 auto 2rem auto;">
+          Whether you need 10 individual boxed lunches or several catering party trays for your team meeting, C&T Wok ensures your food arrives hot, labeled, and on time.
+        </p>
+        <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+          <a href="catering.html" class="btn btn-gold btn-lg">View Catering Trays</a>
+          <a href="tel:+19194678860" class="btn btn-primary btn-lg">Call to Order: (919) 467-8860</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.svg" alt="C&T Wok Logo" class="footer-logo">
+          <p class="footer-bio">
+            Freshly wok-fired Chinese & Thai cuisine in Morrisville, NC. Fast weekday lunches, family dinners, and catering party trays.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/130CTWok" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Instagram">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">&rsaquo; Home</a></li>
+            <li><a href="menu.html" class="footer-link">&rsaquo; Full Food Menu</a></li>
+            <li><a href="lunch-specials.html" class="footer-link">&rsaquo; Weekday Lunch Specials</a></li>
+            <li><a href="about.html" class="footer-link">&rsaquo; Our Story & Kitchen</a></li>
+            <li><a href="catering.html" class="footer-link">&rsaquo; Catering & Group Trays</a></li>
+            <li><a href="contact.html" class="footer-link">&rsaquo; Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Lunch Service Hours</h4>
+          <p style="font-size: 0.9rem; color: #D1D5DB; margin-bottom: 0.5rem;">
+            <strong>Monday – Friday:</strong><br>
+            11:00 AM – 2:45 PM
+          </p>
+          <p style="font-size: 0.85rem; color: #9CA3AF;">
+            Dinner service resumes at 4:30 PM.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Phone Pickup</h4>
+          <p style="font-size: 0.92rem; color: #D1D5DB;">
+            Call to order in advance:
+          </p>
+          <a href="tel:+19194678860" style="font-size: 1.15rem; font-weight: 800; color: var(--color-gold-light);">
+            (919) 467-8860
+          </a>
+          <p style="font-size: 0.85rem; color: #9CA3AF; margin-top: 6px;">
+            130 Morrisville Square Way, Morrisville, NC
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> C&T Wok. All Rights Reserved.
+        </div>
+        <div>
+          <span>11:00 AM – 2:45 PM Lunch Service</span> &nbsp;•&nbsp; 
+          <a href="tel:+19194678860" style="color: var(--color-gold-light); font-weight: 600;">(919) 467-8860</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ORDER TRAY FLOATING WIDGET -->
+  <div class="order-tray-pill" id="orderTrayToggle" style="display: none;" title="View items you want to order by phone">
+    <span>🥡 Call Order List</span>
+    <span class="order-tray-count" id="orderTrayCount">0</span>
+  </div>
+
+  <div class="order-tray-drawer" id="orderTrayDrawer">
+    <div class="tray-header">
+      <h3>🥡 Your Takeout Order List</h3>
+      <button class="mobile-close-btn" id="closeTrayBtn" style="width: 28px; height: 28px;">&times;</button>
+    </div>
+    <div class="tray-items-list" id="trayItemsList"></div>
+    <div class="tray-footer">
+      <div class="tray-total-row">
+        <span>Est. Subtotal:</span>
+        <span class="tray-total-price" id="trayTotalPrice">$0.00</span>
+      </div>
+      <div style="display: flex; gap: 8px;">
+        <button class="btn btn-outline btn-sm" id="clearTrayBtn" style="flex: 1;">Clear</button>
+        <button class="btn btn-gold btn-sm" id="copyTrayBtn" style="flex: 2;">📋 Copy Order</button>
+      </div>
+      <a href="tel:+19194678860" class="btn btn-primary" style="width: 100%;">
+        📞 Call (919) 467-8860 to Place Order
+      </a>
+    </div>
+  </div>
+
+  <!-- MOBILE STICKY CALL BAR -->
+  <div class="mobile-sticky-action-bar">
+    <a href="tel:+19194678860" class="btn btn-primary">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Tap to Call (919) 467-8860
+    </a>
+    <a href="menu.html" class="btn btn-gold">
+      Full Menu
+    </a>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
